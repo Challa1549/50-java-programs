@@ -10,5 +10,6 @@ class Sixth {
         int year = sc.nextInt();
         double week = year * 52.1429;
         System.out.println("The number of weeks per year are : " + week + " Weeks");
+        sc.close();
     }
 }

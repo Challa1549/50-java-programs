@@ -14,6 +14,8 @@ class Eighth {
             } else {
                 System.out.println("Your name " + i + " times is " + name);
             }
+            sc.close();
         }
     }
+
 }
