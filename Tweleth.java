@@ -122,6 +122,7 @@ class Twelfth {
                     default ->
                         System.out.println("Invalid option! Please enter a valid choice.");
                 }
+                sc.close();
                 return;
             }
             case 2 -> {
@@ -147,6 +148,7 @@ class Twelfth {
                     default ->
                         System.out.println("Invalid option! Please enter a valid choice.");
                 }
+                sc.close();
                 return;
             }
             case 3 -> {
@@ -172,6 +174,7 @@ class Twelfth {
                     default ->
                         System.out.println("Invalid option! Please enter a valid choice.");
                 }
+                sc.close();
                 return;
             }
             default ->
